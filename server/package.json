@@ -1,0 +1,21 @@
+{
+  "name": "buddy-up-match-server",
+  "version": "1.0.0",
+  "description": "Backend server for Buddy Up Match using PERN stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
